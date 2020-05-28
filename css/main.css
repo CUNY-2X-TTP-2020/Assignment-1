@@ -16,3 +16,17 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+/* Base Styles */
+
+body::-webkit-scrollbar {
+    width: 0.35em;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--bg-secondary);
+}
