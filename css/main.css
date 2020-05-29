@@ -6,6 +6,7 @@
     --bg-primary: #222629;
     --nav-primary: #4b7716;
     --nav-hover: #689c1e;
+    --transition-speed: 500ms;
 }
 
 * {
@@ -91,6 +92,11 @@ a {
 }
 
 .nav-list a:hover {
+    background: var(--nav-hover);
+    transition: var(--transition-speed);
+}
+
+.nav-list a.active {
     background: var(--nav-hover);
 }
 
