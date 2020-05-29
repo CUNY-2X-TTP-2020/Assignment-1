@@ -1,0 +1,23 @@
+:root {
+    --link-hover: #93e223;
+    --transition-speed: 500ms;
+}
+
+body {
+    height: 100vh;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section-header {
+    max-width: 640px;
+    margin: 0 auto 2rem auto;
+    border-bottom: 0.2rem solid white;
+}
+
+.profile-link:hover {
+    color: var(--link-hover);
+    transition: var(--transition-speed);
+}
