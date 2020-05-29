@@ -93,3 +93,11 @@ a {
 .nav-list a:hover {
     background: var(--nav-hover);
 }
+
+/* Footer */
+
+footer {
+    bottom: 5pt;
+    margin-left: 5pt;
+    position: fixed;
+}
